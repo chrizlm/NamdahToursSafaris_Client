@@ -48,7 +48,7 @@ public class ClientService {
 
 
     //GET CLIENTS
-    public List<Client> getClients(){
+    public List<Client> getAllClients(){
         log.info("getting a list of clients");
         return clientRepository.findAll();
     }
