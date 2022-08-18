@@ -74,6 +74,8 @@ public class ClientService {
             }
 
         }
+
+        clientRepository.save(expectedClient);
         log.info("Client details updated");
         return "Client details updated";
     }
